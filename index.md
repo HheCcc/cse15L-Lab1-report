@@ -7,15 +7,15 @@
 [user@sahara ~]$ cd
 ```
 * The working directory is home
-* cd is used to change the currentr diretory to others. Since there is no directory after the commond cd
-* the output is an error, we should add diretory after cd.
+* 'cd' is used to change the currentr diretory to others. Since there is no directory after the commond 'cd'.
+* the output is an error, we should add diretory after 'cd'.
 2. An example of using the command with a path to a directory as an argument.
 ```
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
 ```
 * The working directory is lecture1
-* I use cd to change the directory from home to lecture1
+* I use 'cd' to change the directory from home to lecture1
 * The output is not an error
 3. An example of using the command with a path to a file as an argument.
 ```
@@ -24,8 +24,8 @@ bash: cd: README: No such file or directory
 [user@sahara ~]$
 ```
 * The working directory is home
-* We only use cd to change the directory
-* The output is an error, cuz we can't use cd to a file
+* We only use 'cd'to change the directory
+* The output is an error, cuz we can't use 'cd' to a file
 
 ## For the command 'ls'
 1. An example of using the command with no arguments.
@@ -59,15 +59,15 @@ ls: cannot access 'README': No such file or directory
 [user@sahara ~]$ cat
 ```
 * The working directory is home
-* cat used to print the contents of files given by the paths
-* It's an error. I didn't give a path after the command cat
+* 'cat' used to print the contents of files given by the paths
+* It's an error. I didn't give a path after the command 'cat'
 2. An example of using the command with a path to a directory as an argument.
 ```
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 ```
 * The working directory is home
-* cat used to print the contents of files given by the paths
+* 'cat' used to print the contents of files given by the paths
 * It's an error, lecture1 is a direcotry, can't be printed.
 3. An example of using the command with a path to a file as an argument.
 ```
@@ -75,6 +75,6 @@ cat: lecture1: Is a directory
 cat: README: No such file or directory
 ```
 * The working directory is home
-* cat used to print the contents of files given by the paths
+* 'cat' used to print the contents of files given by the paths
 * It's an error, README is a file, not a path
 
