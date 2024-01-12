@@ -33,48 +33,48 @@ bash: cd: README: No such file or directory
 [user@sahara ~]$ ls
 lecture1
 ```
-*
-*
-*
+* The working directory is home
+* 'ls' lists the folder in home
+* It's not an error
 2. An example of using the command with a path to a directory as an argument.
 ```
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
 ```
-*
-*
-*
+* The working directory is home
+* 'ls' lists the folders and files in picture1
+* It's not an error
 3. An example of using the command with a path to a file as an argument.
 ```
 [user@sahara ~]$ ls README
 ls: cannot access 'README': No such file or directory
 ```
-*
-*
-*
+* The working directory is home
+* 'ls' lists the folders and files in README
+* It's an error, cuz there is no folders and files in README
 
 ## For the command 'cat'
 1. An example of using the command with no arguments.
 ```
 [user@sahara ~]$ cat
 ```
-*
-*
-*
+* The working directory is home
+* cat used to print the contents of files given by the paths
+* It's an error. I didn't give a path after the command cat
 2. An example of using the command with a path to a directory as an argument.
 ```
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 ```
-*
-*
-*
+* The working directory is home
+* cat used to print the contents of files given by the paths
+* It's an error, lecture1 is a direcotry, can't be printed.
 3. An example of using the command with a path to a file as an argument.
 ```
 [user@sahara ~]$ cat README
 cat: README: No such file or directory
 ```
-*
-*
-*
+* The working directory is home
+* cat used to print the contents of files given by the paths
+* It's an error, README is a file, not a path
 
