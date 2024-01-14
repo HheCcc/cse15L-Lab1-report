@@ -64,7 +64,7 @@ lecture1/Hello.java
 ```
 * The working directory is home
 * 'cat' used to print the contents of files given by the paths
-* It's an error. I didn't give a path after the command 'cat'
+* It's not an error
 2. An example of using the command with a path to a directory as an argument.
 ```
 [user@sahara ~]$ cat lecture1
