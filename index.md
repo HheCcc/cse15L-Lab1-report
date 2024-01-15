@@ -61,11 +61,11 @@ lecture1/Hello.java
 1. An example of using the command with no arguments.
 ```
 [user@sahara ~]$ cat
-
 ```
 * The working directory is home
 * 'cat' used to print the contents of files given by the paths
 * It's not an error
+
 2. An example of using the command with a path to a directory as an argument.
 ```
 [user@sahara ~]$ cat lecture1
@@ -75,6 +75,7 @@ cat: lecture1: Is a directory
 * The working directory is home
 * 'cat' used to print the contents of files given by the paths
 * It's an error, lecture1 is a direcotry, can't be printed.
+
 3. An example of using the command with a path to a file as an argument.
 ![Images](Pics.png)
 * The working directory is home
