@@ -61,6 +61,7 @@ lecture1/Hello.java
 1. An example of using the command with no arguments.
 ```
 [user@sahara ~]$ cat
+
 ```
 * The working directory is home
 * 'cat' used to print the contents of files given by the paths
@@ -89,7 +90,9 @@ sets.UTF_8);
     System.out.println(content);
   }
 }
-[user@sahara ~]$ 
+
+[user@sahara ~]$
+
 ```
 * The working directory is home
 * 'cat' used to print the contents of files given by the paths
