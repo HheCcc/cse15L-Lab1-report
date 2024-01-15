@@ -76,24 +76,7 @@ cat: lecture1: Is a directory
 * 'cat' used to print the contents of files given by the paths
 * It's an error, lecture1 is a direcotry, can't be printed.
 3. An example of using the command with a path to a file as an argument.
-```
-[user@sahara ~]$ cat lecture1/Hello.java
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-
-public class Hello {
-  public static void main(String[] args) throws IOException {
-    String content = Files.readString(Path.of(args[0]), StandardChar
-sets.UTF_8);    
-    System.out.println(content);
-  }
-}
-
-[user@sahara ~]$
-
-```
+![Images](Pics.png)
 * The working directory is home
 * 'cat' used to print the contents of files given by the paths
 * It's not an error
