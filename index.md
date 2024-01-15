@@ -88,7 +88,8 @@ public class Hello {
 sets.UTF_8);    
     System.out.println(content);
   }
-}[user@sahara ~]$ 
+}
+[user@sahara ~]$ 
 ```
 * The working directory is home
 * 'cat' used to print the contents of files given by the paths
